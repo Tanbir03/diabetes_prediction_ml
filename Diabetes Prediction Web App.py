@@ -11,8 +11,8 @@ import streamlit as st
 
 
 #model loading.
-loaded_model = pickle.load(open('C:/Users/tanbi/OneDrive/Documents/My Codes/Machine Learning/Diabetes Prediction/trained_model.sav', 'rb'))
-scaler = pickle.load(open('C:/Users/tanbi/OneDrive/Documents/My Codes/Machine Learning/Diabetes Prediction/scaler.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 #fuction creation.
 def diabetes_prediction(input_data):
